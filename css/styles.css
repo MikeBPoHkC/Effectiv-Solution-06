@@ -54,7 +54,6 @@ button {
 }
 
 .container {
-  min-width: 320px;
   max-width: 320px;
   padding: 0 16px;
   margin: 0 auto;
@@ -128,8 +127,6 @@ button {
 
 /* Hero */
 .hero {
-  max-width: 320px;
-  margin: 0 auto;
   padding: 72px 0;
   background-color: var(--hero-bg);
   background-image:
@@ -976,7 +973,6 @@ button {
   }
 
   .hero {
-    max-width: 768px;
     padding: 112px 0;
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -1116,6 +1112,7 @@ button {
 
   .hero {
     max-width: 1440px;
+    margin: 0 auto;
     padding: 188px 0;
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
